@@ -1,0 +1,95 @@
+
+.editor-with-console {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Editor.css */
+
+/* Customize the background color of the editor */
+.ace_editor {
+  background-color: #0f1a26;
+}
+
+/* Customize the background color of the active line */
+.ace_line {
+  background-color: #0f1a26;
+}
+
+.ace_gutter-active-line {
+  background-color: #ffffff2f !important;
+}
+
+
+.ace_gutter {
+  background-color: #0000006d !important; /* Replace "your-color" with your desired color */
+  color: #ffffff5e !important; /* Change text color of gutter if needed */
+}
+
+/* Customize the background color of the selected text */
+.ace_selection {
+  background-color: #264f78;
+}
+
+/* Customize the color of the gutter */
+.ace_gutter {
+  background-color: #21252b;
+}
+
+/* Customize the color of the text */
+.ace_content {
+  color: #15ab5b; /* Your desired text color */
+  font-family: 'Fira Code', 'Menlo', 'Courier New', monospace;
+}
+
+
+/* Customize the color of comments */
+.ace_comment {
+  color: #608b4e;
+}
+
+/* Customize the color of strings */
+.ace_string {
+  color: #ce9178;
+}
+
+/* Customize the color of keywords */
+.ace_keyword {
+  color: #569cd6;
+}
+
+/* Customize the color of functions */
+.ace_support.function {
+  color: #e4e40e;
+}
+
+/* Customize the color of variables */
+.ace_variable {
+  color: #9cdcfe;
+}
+
+/* Customize the color of HTML tag names */
+.ace_support.tag {
+  color: #569cd6;
+}
+
+/* Customize the color of HTML attribute names */
+.ace_entity.ace_name {
+  color: #9cdcfe;
+}
+
+.ace_cursor {
+  color: #f9f9fa !important;
+  border-left: 2px solid #abb2bf !important;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+  background:#569cd6;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
